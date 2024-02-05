@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Hiiii -->
+    <title>Spotify Clone - Shivam</title>
+    <link rel="icon" href="./spotify/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="spotify-style.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="sidebar"> <!-- SIDEBAR .............................-->
+
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+
+                <div class="options">
+                    <div class="lib-options nav-option">
+                        <img src="./spotify/library_icon.png" alt="#">
+                        <a href="#">Your Library</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="xxx">
+                    <div class="btn"><a href="#">Playlists</a></div>
+                    <div class="btn"><a href="#">Artists</a></div>
+                    <div class="btn"><a href="#">Albums</a></div>
+                </div>
+
+
+                <div class="recent">
+                    
+                    <div class="yyy">
+                        <div class="nav-option">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="nav-option">
+                            Recents
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+
+                    <div class="recent-songs">
+                        <img src="./spotify/liked.png">
+                        <p class="song-name"><b>Liked Songs</b><br>Playlist &#8226; 143 Songs</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song1.jpeg">
+                        <p class="song-name"><b>Down At Dusk</b><br>Music &#8226; Talha Anjum</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song (2).png">
+                        <p class="song-name"><b>Therapay</b><br>Album &#8226; Jokhay</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song (1).png">
+                        <p class="song-name"><b>Still Rollin</b><br>Music &#8226; Shubh</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song (3).png">
+                        <p class="song-name"><b>Radio</b><br>Music &#8226; Lana Del Ray</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song (4).png">
+                        <p class="song-name"><b>CHILL &#10024</b><br>Album &#8226; Ragexhydra</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song (6).png">
+                        <p class="song-name"><b>Long Time No See</b><br>Music &#8226; Taimour Baig</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song (5).png">
+                        <p class="song-name"><b>स्वाद</b><br>Album &#8226; Shivam &#128681;</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song (7).png">
+                        <p class="song-name"><b>Shikayat</b><br>Music &#8226; AUR</b></p>
+                    </div>
+                    <div class="recent-songs">
+                        <img src="./spotify/song (8).png">
+                        <p class="song-name"><b>Mere Ho Tum</b><br>Music &#8226; Taimour Baig</b></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+        <div class="music"> <!--MAIN Panel.....................................-->
+            
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./spotify/backward_icon.png">
+                    <img src="./spotify/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge hide ahover">Explore Premium</button>
+                    <button class="badge dark-badge ahover"><i class="fa-regular fa-circle-down" style="margin-right: 4px;"></i> Instal App</button>
+                    <i class="fa-regular fa-bell ahover roundreason"></i>
+                    <i class="fa-regular fa-user ahover roundreason"></i>
+                </div>
+            </div>
+            <div class="sticky-nav-buttons">
+                <button class="badge">All</button>
+                <button class="badge">Music</button>
+                <button class="badge">Podcasts</button>
+            </div>
+
+
+<!-- ///////////////////////////////////////////////////// -->
+
+
+            <div class="cards">
+
+
+                <div class="liked">
+                    <div class="liked-songs">
+                        <img src="./spotify/liked.png">
+                        <div class="liked-space">
+                            <P>Liked Songs</P>
+                            <img class="play-icon" src="./spotify/play icon.png">
+                        </div>
+                    </div>
+                    <div class="liked-songs">
+                        <img src="./spotify/song (2).png">
+                        <div class="liked-space">
+                            <p>Therapy</p> 
+                            <img class="play-icon" src="./spotify/play icon.png">
+                        </div>
+                    </div>
+                    <div class="liked-songs">
+                        <img src="./spotify/song (10).png">
+                        <div class="liked-space">
+                            <p>Anuv Jain</p>
+                            <img class="play-icon" src="./spotify/play icon.png">
+                        </div>
+                    </div>
+                    <div class="liked-songs">
+                        <img src="./spotify/song (9).png">
+                        <div class="liked-space">
+                            <p>Itni Kyu Tum Khubsurat Ho</p>
+                            <img class="play-icon" src="./spotify/play icon.png">
+                        </div>
+                    </div>
+                    <div class="liked-songs">
+                        <img src="./spotify/song (4).png">
+                        <div class="liked-space">
+                            <p>CHILL &#10024</p>
+                            <img class="play-icon" src="./spotify/play icon.png">
+                        </div>
+                    </div>
+                    <div class="liked-songs">
+                        <img src="./spotify/song (11).png">
+                        <div class="liked-space">
+                            <p>The IDM Playlist</p>
+                            <img class="play-icon" src="./spotify/play icon.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title-bar">
+                    <h2>Made For Shivam &#128681</h2>
+                </div>
+                <div class="section1">
+
+                    <div class="card1">
+                        <img src="./spotify/daily (1).png">
+                        <h3>Daily Mix 1</h3>
+                        <p class="card1-text">
+                            Taimour Baig, Pina Colada Blues and more...
+                        </p>
+                    </div>
+                    <div class="card1">
+                        <img src="./spotify/daily (2).png">
+                        <h3>Daily Mix 2</h3>
+                        <p class="card1-text">
+                            Pritam, Lost Stories, Farhan Akhtar and more...
+                        </p>
+                    </div>
+                    <div class="card1">
+                        <img src="./spotify/daily (3).png">
+                        <h3>Daily Mix 3</h3>
+                        <p class="card1-text">
+                            Taimour Baig, Umer Anjum, Talha Anjum and more...
+                        </p>
+                    </div>
+                    <div class="card1">
+                        <img src="./spotify/daily (4).png">
+                        <h3>Daily Mix 4</h3>
+                        <p class="card1-text">
+                            Vishal Shekhar, Kishor, AR Rheman and more...
+                        </p>
+                    </div>
+                    <div class="card1">
+                        <img src="./spotify/daily (5).png">
+                        <h3>Daily Mix 5</h3>
+                        <p class="card1-text">
+                            Divine, Sheedhe Mout, KR$NA and more...
+                        </p>
+                    </div>
+                </div> 
+
+                <div class="title-bar">
+                    <h2>Episodes For You</h2>
+                </div>
+                <div class="section1">
+
+                    <div class="card1">
+                        <img src="./spotify/episode (1).png">
+                        <h3>Best Krishna Motivational</h3>
+                        <p class="card1-text">
+                            May 2023  &#8226; 15 min
+                        </p>
+                    </div>
+                    <div class="card1">
+                        <img src="./spotify/episode (2).png">
+                        <h3>Bas kar Bassi Part 1</h3>
+                        <p class="card1-text">
+                            Oct 2023  &#8226; 38 min
+                        </p>
+                    </div>
+                    <div class="card1">
+                        <img src="./spotify/episode (3).png">
+                        <h3>Rich Dad Poor Dad Audio</h3>
+                        <p class="card1-text">
+                            Aug 2022  &#8226; 31 min
+                        </p>
+                    </div>
+                    <div class="card1">
+                        <img src="./spotify/episode (4).png">
+                        <h3>Mahabharat The Audio Book</h3>
+                        <p class="card1-text">
+                            Jul 2022  &#8226; 69 min
+                        </p>
+                    </div>
+                    <div class="card1">
+                        <img src="./spotify/episode (5).png">
+                        <h3>How To Control Your Thougts</h3>
+                        <p class="card1-text">
+                            May 2023  &#8226; 22 min
+                        </p>
+                    </div>
+                </div> 
+
+                <div class="title-bar">
+                    <h2>Your Favourite Artists</h2>
+                </div>
+                <div class="section1">
+
+                    <div class="card1 small">
+                        <img src="./spotify/fav art (1).png" style="border-radius: 50%;">
+                        <h3>Amithab Bhattacharya</h3>
+                        <p class="card1-text">
+                            Artist
+                        </p>
+                    </div>
+                    <div class="card1 small">
+                        <img src="./spotify/fav art (2).png" style="border-radius: 50%;">
+                        <h3>Talha Anjum</h3>
+                        <p class="card1-text">
+                            Artist
+                        </p>
+                    </div>
+                    <div class="card1 small">
+                        <img src="./spotify/fav art (3).png" style="border-radius: 50%;">
+                        <h3>Taimour Baig</h3>
+                        <p class="card1-text">
+                            Artist
+                        </p>
+                    </div>
+                    <div class="card1 small">
+                        <img src="./spotify/fav art (4).png" style="border-radius: 50%;">
+                        <h3>Lana Del Ray</h3>
+                        <p class="card1-text">
+                            Artist
+                        </p>
+                    </div>
+                    <div class="card1 small">
+                        <img src="./spotify/fav art (5).png" style="border-radius: 50%;">
+                        <h3>Shubh</h3>
+                        <p class="card1-text">
+                            Artist
+                        </p>
+                    </div>
+                </div> 
+
+                <div class="footer">
+                    <div class="footer-line">
+                        <h3>Shivam Hippalgave B.tech MIT-AoE</h3>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Music Player ..................................-->
+
+        <div class="player">
+            <div class="player-a">
+                <img src="./spotify/player a (2).png" alt="">
+                <P><b>Until I Found You</b><br>Stephen Sanchez</P>
+                <img class="img-like" src="./spotify/player a (1).png" alt="">
+            </div>
+
+
+            <div class="player-b">
+                <div class="player-b1">
+                    <img src="./spotify/player_icon1.png" alt="">
+                    <img src="./spotify/player_icon2.png" alt="">
+                    <img class="play-pause" src="./spotify/player_icon3.png" alt="">
+                    <img src="./spotify/player_icon4.png" alt="">
+                    <img src="./spotify/player_icon5.png" alt="">
+                </div>
+                <div class="player-b2">
+                    <p>1:45</p>
+                    <input type="range" class="vol-range2" min="0" max="100" step="1" value="33">
+                    <p>3:33</p>
+                </div>
+            </div>
+
+
+            <div class="player-c">
+                <img src="./spotify/player c (1).png" alt="">
+                <img src="./spotify/player c (2).png" alt="">
+                <img class="imgz" src="./spotify/player c (3).png" alt="">
+                <img class="imgzz" src="./spotify/player c (4).png" alt="">
+                <img class="imgz" src="./spotify/player c (5).png" alt="">
+                <input type="range" class="vol-range" min="0" max="100" step="10" value="66">
+                <img class="imgz" src="./spotify/player c (6).png" alt="">
+            </div>
+        </div> 
+
+
+
+
+    </div> 
+
+</body>
+</html>
+
+
+<!-- Hiiiiii, Thanks for coming here. -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
