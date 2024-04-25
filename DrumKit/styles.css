@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  background-color: #260773;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  color:  #ef1ec2;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 2px #feaded;
+}
+
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0px 0px 10px 10px #DBEDF3;
+  opacity: 0.5;
+}
+
+
+.drum {
+  outline: none;
+  border: 8px solid #ad65ff;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #f45bd4;
+  text-shadow: 3px 3px #ad65ff;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.foot {
+  font-size: 2rem;
+  color:  #ef1ec2;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 1px #feaded;
+}
+
+@media (orientation:portrait) {
+  h1 {
+    font-size: 2.7rem;
+    margin: 1rem 0 0 0;
+  }
+  .foot {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .set {
+    margin: 1rem;
+  }
+  .drum {
+    border: 6px solid #ad65ff;
+    font-size: 4rem;
+    line-height: 2.5;
+    width: 130px;
+    height: 130px;
+    margin: 0.8rem;
+  }
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+.z{
+  background-image: url("./images/tom1.png");
+  background-size: cover ;
+}
+
+.x {
+  background-image: url("./images/tom3.png");
+  background-size: cover ;
+
+}
+
+.c {
+  background-image: url("./images/snare.png");
+  background-size: cover ;
+
+}
+
+.v {
+  background-image: url("./images/kick.png");
+  background-size: cover ;
+}
+
+.b {
+  background-image: url("./images/crash.png");
+  background-size: cover ;
+
+}
+
+.n {
+  background-image: url("./images/tom4.png");
+  background-size: cover ;
+
+}
+
+.m {
+  background-image: url("./images/tom2.png");
+  background-size: cover ;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
