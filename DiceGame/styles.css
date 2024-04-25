@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+}
+.res {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #e89c1e;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 0 #293646;
+  font-size: 5rem;
+  color: #273445;
+  text-align: center;
+}
+
+button {
+  background-color: #d0031a;
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 0 #293646;
+  font-size: 2rem;
+  color: #273445;
+  padding: 0.5rem 1.5rem;
+  border: 3px solid #293646;
+  border-radius: 50px;
+  box-shadow: 3px 3px 15px 3px #293646;
+  margin: 3rem;
+}
+
+
+p {
+  font-size: 2.4rem;
+  color: #273445;
+  text-shadow: 1px 0 #293646;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+img {
+  width: 50%;
+  border: 2px solid #293646;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px 5px #293646;
+}
+
+.span {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1rem;
+  color: #273445;
+  font-weight: bold;
+  height: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media (orientation:portrait) {
+  h1 {
+    font-size: 4rem;
+  }
+  .res {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  img {
+    width: 80%;
+  }
+  button {
+    padding: 0.2rem 1rem;
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.7rem;
+  }
+}
