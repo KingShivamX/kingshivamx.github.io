@@ -14,6 +14,8 @@
     <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
     <style>
         body {
+            margin: 0;
+            padding: 0;
             background-color: #000000;
         }
         .div {
@@ -114,37 +116,52 @@
             padding: 0;
         }
         }
+        .container{
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.525);
+        }
+        video{
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+            position: fixed;
+            z-index: -3;
+        }
 
     </style>
 </head>
 <body>
-    <div class="div">
-        <h1>Shivam Hippalgave</h1>
-        <a href="./DrumKit/index.html">Drum Kit</a>
-        <a href="./DiceGame/dicee.html">2 Player - Dice Game</a>
-        <a href="./blog.html">Blog Page</a>
-        <a href="./spotify.html">Spotify Clone</a>
-        <a href="./Indian Falg.html">Indian Flag</a>
+    <video muted autoplay loop src="./pic/naruto.mp4"></video>
+    <div class="container">
+        <div class="div">
+            <h1>Shivam Hippalgave</h1>
+            <a href="./DrumKit/index.html">Drum Kit</a>
+            <a href="./DiceGame/dicee.html">2 Player - Dice Game</a>
+            <a href="./blog.html">Blog Page</a>
+            <a href="./spotify.html">Spotify Clone</a>
+            <a href="./Indian Falg.html">Indian Flag</a>
+        </div>
+    
+        <div class="social">
+            <ul>
+              <a href="https://www.instagram.com/sivazx/">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.twitter.com/KingShivamX">
+                  <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/shivamhippalgave/">
+                  <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://www.github.com/KingShivamX">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.youtube.com/@KingShivamX/featured">
+                  <i class="fa-brands fa-youtube"></i>
+              </a>
+            </ul>   
+      </div> 
     </div>
-
-    <div class="social">
-        <ul>
-          <a href="https://www.instagram.com/sivazx/">
-              <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://www.twitter.com/KingShivamX">
-              <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/shivamhippalgave/">
-              <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="https://www.github.com/KingShivamX">
-              <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="https://www.youtube.com/@KingShivamX/featured">
-              <i class="fa-brands fa-youtube"></i>
-          </a>
-        </ul>   
-  </div> 
 </body>
 </html>
