@@ -53,7 +53,7 @@ function bodyblink() {
 function levelup() {
     userbtn = [];
     level++;
-    headlevel.innerHTML = `Currnet Level: ${level}`
+    headlevel.innerHTML = `Current Level: ${level}`
     let randno = Math.floor(Math.random() * 4);
     let randcolor = colorbtn[randno];
     gamebtn.push(randcolor);
