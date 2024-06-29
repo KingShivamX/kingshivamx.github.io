@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: #f8ffff;
+}
+
+.heading {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score {
+    width: 100%;
+    height: 8vh;
+}
+.game {
+    width: 100%;
+    height: 50vh;
+}
+.start {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.highest {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 3.3rem;
+    text-shadow: 0px 0px 5px #24242494;
+}
+h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-shadow: 0px 0px 3px #24242494;
+}
+.box {
+    height: 50vh;
+    max-width: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 5px auto;
+}
+.btn {
+    border-radius: 25px;
+    border: 3px solid black;
+}
+.btn:active{
+    box-shadow: 0px 0px 10px 5px #24242494;
+}
+.yellow {
+    background-color: #FACB0F;
+    border-bottom-right-radius: 5px;
+}
+.blue {
+    background-color: #3C91E6;
+    border-bottom-left-radius: 5px;
+}
+.green {
+    background-color: #0CCE6B;
+    border-top-left-radius: 5px;
+}
+.red {
+    background-color: #F40000;
+    border-top-right-radius: 5px;
+}
+
+.button{
+    background-color: #f8ffff;
+    height: 3.5rem;
+    width: 12rem;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: 3px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-shadow: 0px 0px 2px #24242494;
+}
+.button:active {
+    box-shadow: 0px 0px 10px 5px #24242494;
+}
+
+@media (orientation:portrait) {
+    h1 {
+        font-size: 2.1rem;
+        font-weight: 900;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .button{
+        height: 2.8rem;
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+    .box{
+        width: 96vw;
+    }
+}
+.gameclick {
+    background-color: #fff;
+}
+.over {
+    background-color: #ca0000;
+}
