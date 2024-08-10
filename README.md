@@ -1,4 +1,4 @@
-# King's Portfolio
+# Shivam's Portfolio
 
 Welcome to [King's Portfolio](https://kingshivamx.github.io), a GitHub Pages site showcasing all of my projects. Here you can explore a variety of projects I’ve worked on, each with its own set of features and technologies.
 
