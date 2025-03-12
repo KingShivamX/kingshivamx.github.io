@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     background-color: #000000;
     color: #ffffff;
@@ -23,28 +23,28 @@ body {
     flex: 1;
     /* width: 70%; */
     border-radius: 0.7rem;
-    overflow:auto;
+    overflow: auto;
     background-color: #131312;
-    padding:0 1rem;
+    padding: 0 1rem;
     height: 88.6%;
 }
 
 /* HERE WAS PLAYER */
 
-a{
+a {
     text-decoration: none;
     color: #ffffff;
 }
 
 .nav {
     background-color: #131312;
-    border-radius: 0.7rem; 
+    border-radius: 0.7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100px;
     padding: 0.5rem 0.75rem;
-    margin-right:0.4rem;
+    margin-right: 0.4rem;
 }
 
 .nav-option {
@@ -71,8 +71,8 @@ a{
     background-color: #131312;
     border-radius: 0.7rem;
     height: 100%;
-    margin-top:0.4rem;
-    margin-right:0.4rem;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
     padding: 0.5rem 0.75rem;
 }
 
@@ -101,7 +101,7 @@ a{
 }
 
 .xxx {
-    display:flex;
+    display: flex;
     margin-bottom: 0.7rem;
 }
 
@@ -120,7 +120,7 @@ a{
     background-color: #2f2f2f;
 }
 
-.yyy{
+.yyy {
     /* margin-top: 0.4rem; */
     display: flex;
     justify-content: space-between;
@@ -128,10 +128,10 @@ a{
     /* margin-top: 0px; */
 }
 .yyy i {
-    font-size:1rem;
+    font-size: 1rem;
 }
 
-.recent-songs{
+.recent-songs {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -145,7 +145,7 @@ a{
     opacity: 0.9;
 }
 
-.song-name{
+.song-name {
     padding-left: 1rem;
 }
 
@@ -186,7 +186,6 @@ a{
     color: black;
 }
 
-
 .dark-badge {
     background-color: black;
     color: white;
@@ -203,7 +202,7 @@ a{
 
 .sticky-color-palate {
     position: sticky;
-    top:0;
+    top: 0;
 }
 
 /* .sticky-nav-icons {
@@ -229,8 +228,7 @@ a{
     margin-right: 1rem;
 }
 
-
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
     .hide {
         display: none;
     }
@@ -305,8 +303,8 @@ a{
     /* margin-left: 9.5rem; */
     padding: 0;
     border-radius: 10px;
-    opacity: 0 ;
-    box-shadow: 1px 1px 10px hsl(0, 0%, 21%) ;
+    opacity: 0;
+    box-shadow: 1px 1px 10px hsl(0, 0%, 21%);
     border-radius: 50%;
     transition-duration: 0.3s;
     margin-right: 0.7rem;
@@ -315,7 +313,7 @@ a{
     opacity: 1;
 }
 .liked-songs:hover {
-    background-color: #202020 ;
+    background-color: #202020;
 }
 
 .liked-space {
@@ -326,7 +324,6 @@ a{
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
-
 
 .title-bar h2 {
     margin: 1rem 0rem;
@@ -344,7 +341,7 @@ a{
     width: 12rem;
     height: 19rem;
     display: flex;
-    border-radius: 12px ;
+    border-radius: 12px;
     flex-direction: column;
     overflow: hidden;
     transition-duration: 0.3s;
@@ -369,7 +366,6 @@ a{
     background-color: #232323;
 }
 
-
 .music::-webkit-scrollbar {
     display: none;
 }
@@ -381,9 +377,9 @@ a{
     justify-content: center;
 }
 
-.footer-line{
+.footer-line {
     margin-bottom: 5rem;
-    border-top:2px solid white ;
+    border-top: 2px solid white;
     opacity: 0.3;
     transition-duration: 0.2s;
 }
@@ -396,11 +392,7 @@ a{
     height: 18rem;
 }
 
-
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-
-
 
 .player {
     /* background-color: #000000; */
@@ -414,7 +406,6 @@ a{
     flex-wrap: nowrap;
 }
 
-
 .player-a {
     width: 25%;
     height: 100%;
@@ -427,6 +418,7 @@ a{
     align-items: center;
     line-height: 1.2rem;
 }
+
 .player-a img {
     height: 72%;
     border-radius: 5px;
@@ -441,7 +433,6 @@ a{
 .player-a p:hover {
     text-decoration: underline;
 }
-
 
 .player-c {
     width: 25%;
@@ -485,14 +476,14 @@ a{
     transform: scale(1.1);
 }
 
-.vol-range{
+.vol-range {
     -webkit-appearance: none;
     appearance: none;
     background: white;
     cursor: pointer;
     width: 15rem;
     cursor: pointer;
-  }
+}
 
 .vol-range {
     height: 4px;
@@ -501,7 +492,6 @@ a{
     margin-right: 0.5rem;
 }
 
-
 .vol-range::-webkit-slider-thumb {
     /* -webkit-appearance: none; */
     appearance: none;
@@ -509,15 +499,11 @@ a{
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
- }
+}
 
+/* /////////// */
 
-
- /* /////////// */
-
-
-
- .player-b {
+.player-b {
     width: 50%;
     height: 100%;
     background-color: #000000;
@@ -532,8 +518,9 @@ a{
     margin: 0.4rem 1rem 0 1rem;
     opacity: 0.7;
 }
+
 .player-b1 img:hover {
- opacity: 1;
+    opacity: 1;
 }
 
 .player-b1 .play-pause {
@@ -544,9 +531,6 @@ a{
     transform: scale(1.1);
 }
 
-
-
-
 .player-b1 {
     display: flex;
     flex-direction: row;
@@ -555,10 +539,8 @@ a{
     align-items: center;
 }
 
-
-
 .player-b2 {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -569,23 +551,22 @@ a{
     opacity: 0.7;
 }
 
-.vol-range2{
+.vol-range2 {
     -webkit-appearance: none;
     appearance: none;
     background: white;
     cursor: pointer;
     width: 15rem;
     cursor: pointer;
-  }
+}
 
 .vol-range2 {
     height: 4px;
-    width:31rem;
+    width: 31rem;
     border-radius: 10px;
     margin-right: 0.5rem;
     margin: 0 1rem;
 }
-
 
 .vol-range2::-webkit-slider-thumb {
     appearance: none;
@@ -593,33 +574,287 @@ a{
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
- }
-
+}
 
 /* Hiiii, Thanks For Watching */
- /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+/* Mobile Responsiveness - Complete Rewrite */
+@media (max-width: 768px) {
+    /* Reset body overflow to allow scrolling */
+    body {
+        overflow: auto;
+    }
 
- 
+    /* Main container adjustments */
+    .main {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 80px; /* Space for player */
+        overflow: visible; /* Prevent overflow issues */
+    }
 
+    /* Sidebar adjustments - REDUCED BOTTOM MARGIN */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px; /* REDUCED margin to bring divs closer */
+        position: relative; /* Ensure proper stacking */
+    }
 
+    .library {
+        height: 350px;
+        margin-bottom: 5px; /* Reduced margin */
+        overflow: auto;
+        position: relative;
+        padding: 0.5rem 0.75rem;
+        background-color: #131312;
+        border-radius: 0.7rem;
+    }
 
+    /* Music section adjustments */
+    .music {
+        width: calc(100% - 1.5rem);
+        height: auto;
+        max-height: none;
+        margin: 5px auto 0; /* Reduced top margin */
+        position: relative;
+        padding: 0 0.75rem;
+        border-radius: 0.7rem;
+    }
 
+    /* IMPROVED MUSIC PLAYER */
+    .player {
+        height: 60px; /* Slightly shorter */
+        background-color: #121212;
+        border-top: 1px solid #333;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center; /* Center items vertically */
+    }
 
+    /* Adjust player sections */
+    .player-a {
+        width: 15%; /* Smaller width */
+        justify-content: center;
+    }
 
+    .player-a img {
+        height: 40px;
+        margin: 0;
+    }
 
+    .player-a p {
+        display: none; /* Hide song name */
+    }
 
+    .player-b {
+        width: 65%; /* Larger width for controls */
+        justify-content: center;
+    }
 
+    .player-b1 {
+        margin-bottom: 5px; /* Move controls up slightly */
+    }
 
+    .player-b2 {
+        margin-top: -5px; /* Move tracker down */
+    }
 
+    .player-b1 img:nth-child(1), /* First button */
+    .player-b1 img:nth-child(2), /* Second button */
+    .player-b1 img:nth-child(5) {
+        /* Fifth button */
+        display: none;
+    }
 
+    /* Keep only play/pause and next buttons */
+    .player-b1 .play-pause,
+    .player-b1 img:nth-child(4) {
+        display: inline-block;
+    }
 
+    /* Hide time indicators in player-b2 */
+    .player-b2 p {
+        display: none;
+    }
 
+    /* Hide unnecessary buttons in player-c (right section) */
+    .player-c img:nth-child(n + 3) {
+        display: none; /* Hide all except first two icons */
+    }
 
+    /* Adjust card layout in section1 */
+    .section1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 95%;
+    }
 
+    .card1 {
+        width: 48%; /* Make cards take up almost half the width */
+        height: auto;
+        min-height: 180px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        margin-left: 0;
+    }
 
+    /* Ensure every 2nd card has proper margin */
+    .card1:nth-child(2n) {
+        margin-right: 0;
+    }
 
+    .card1:nth-child(2n + 1) {
+        margin-left: 0;
+    }
 
+    /* Adjust card content for better fit */
+    .card1 img {
+        width: 85%;
+        height: auto;
+        margin: 10px auto;
+    }
 
+    .card1 h3 {
+        font-size: 14px;
+        margin: 5px 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 
+    .card1 p {
+        font-size: 12px;
+        margin: 5px 10px;
+        line-height: 1.3;
+        max-height: 3.9em;
+        overflow: hidden;
+    }
 
+    /* Adjust artist cards (the ones with circular images) */
+    .card1.small {
+        min-height: 170px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .main {
+        padding-bottom: 70px; /* Adjusted for smaller player */
+    }
+
+    .player {
+        height: 55px; /* Even shorter on small screens */
+    }
+
+    .player-a {
+        width: 15%;
+    }
+
+    .player-a img {
+        height: 35px;
+    }
+
+    .player-b {
+        width: 70%;
+    }
+
+    .player-c {
+        width: 15%;
+    }
+
+    .player-b1 img:not(.play-pause) {
+        height: 12px;
+        margin: 0 8px;
+    }
+
+    .player-b1 .play-pause {
+        height: 24px;
+        margin: 0 12px;
+    }
+
+    .player-b2 {
+        margin-top: -3px;
+    }
+
+    /* Hide one more button in player-c on smaller screens */
+    .player-c img:nth-child(n + 2) {
+        display: none; /* Hide all except first icon */
+    }
+
+    .section1 {
+        width: 98%;
+    }
+
+    .card1 {
+        width: 48%;
+        min-height: 160px;
+    }
+
+    .card1.small {
+        min-height: 150px;
+    }
+
+    .card1 h3 {
+        font-size: 13px;
+    }
+
+    .card1 p {
+        font-size: 11px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 360px) {
+    .player {
+        height: 50px; /* Smallest height on tiny screens */
+    }
+
+    .player-a img {
+        height: 30px;
+    }
+
+    .player-b1 img:not(.play-pause) {
+        height: 10px;
+        margin: 0 6px;
+    }
+
+    .player-b1 .play-pause {
+        height: 20px;
+        margin: 0 10px;
+    }
+
+    .player-b2 {
+        margin-top: -2px;
+    }
+
+    /* On very small screens, still keep 2 cards side by side */
+    .card1 {
+        width: 48%;
+        min-height: 140px;
+    }
+
+    .card1.small {
+        min-height: 130px;
+    }
+
+    .card1 h3 {
+        font-size: 12px;
+        margin: 3px 8px;
+    }
+
+    .card1 p {
+        font-size: 10px;
+        margin: 3px 8px;
+        line-height: 1.2;
+    }
+}
+
+/* Add this to hide the scrollbar in the library div */
+.library::-webkit-scrollbar {
+    display: none;
+}
